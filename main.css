@@ -1,0 +1,90 @@
+
+
+    /* Use these classes to style the .card component */
+
+.card {
+    
+    padding: 2.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align:center;
+    background-color:#38477b  ;
+    color:white;
+    border-radius: 3rem;;
+    margin:2rem;
+      
+  }
+.card__title {
+    font-size: 40px;
+    font-family: "Anton", serif;
+    
+}
+.card__excerpt {
+    font-size:1rem;
+
+}
+.card__image {
+    width:60vw;
+    display:block;
+}
+.card__more {
+    padding:1rem;
+    text-decoration: none;
+    color:white;
+    
+}
+.card__more:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.card__more:active {
+    color:white;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        padding: 2.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        text-align:center;
+        background-color:#38477b  ;
+        color:white;
+        border-radius: 2rem;;
+        margin:6rem;
+    }
+    .card__title {
+        font-size: 40px;
+        font-family: "Anton", serif;
+    }
+    .card__excerpt {
+        font-size:1rem;
+    }
+    .card__image {
+        width:40vw;
+        display:block;
+        margin:3rem;
+    }
+    .card__more {
+        padding:1rem;
+        text-decoration: none;
+        color:white;
+    }
+    .card__more:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .card__more:active {
+        color:white;
+    }
+  }
+
+  /* You can leave everything below as is — we'll explain flexbox in a later lecture! */
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 8vw;
+  }
+
+    /* You can leave everything below as is — we'll explain flexbox in a later lecture! */
+
